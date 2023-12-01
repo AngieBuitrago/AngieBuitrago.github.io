@@ -1,0 +1,226 @@
+body {
+    background-color: black;
+}
+
+label {
+    color: rgba(235, 243, 235, 0.938);
+  }
+
+  .columna {
+    width:24%;
+    float:left;
+  }
+  
+  @media (max-width: 400px) {
+    
+    .columna {
+      width:auto;
+      float:none
+    }
+    
+  }
+
+.columna_a {
+    width:75%;
+    float:left;
+  }
+  
+  @media (max-width: 400px) {
+    
+    .columna_a {
+      width:auto;
+      float:none
+    }
+    
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+
+}
+.container-image-logo{
+    margin-left: 1%;
+}
+
+.nav-container {
+    width: 50%;
+    height: 30;
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;  
+
+}
+.nav-container-two {
+     text-align: center;
+     margin: 10%;
+}
+.boton-1 {
+    text-align: center;
+}
+.mi-titulo {
+    color: white;
+    text-align: center;
+
+    
+}
+.fname {
+    color: white;
+}
+.mi-titulo-two {
+    color: white;
+    text-align: center;
+}
+.nav-container-three {
+    text-align: center;
+
+}
+.mi-titulo-three{
+    color: white;
+    text-align: center;
+}
+.mi-parrafo{
+    color: white;
+    text-align: justify;  
+    margin: 10%;  
+}
+.nav-container-for{
+    text-align: center;
+}
+.mi-titulo.three {
+    color: white;
+    text-align: center;
+}
+.mi-titulo-for {
+    color: white;
+    text-align: center;
+}
+.mi-parrafo-one {
+    color: white;
+    text-align: justify;
+    margin: 10%;
+    
+}
+.nav-container-five{
+    color: white;
+    text-align: center; 
+}
+.mi-titulo-five {
+    color: white;
+    text-align: center;
+}
+.nav-container-six{
+    color: white;
+    text-align: center;
+}
+.mi-parrafo-two {
+    color: white;
+    text-align: justify;
+    margin: 10%;
+}
+.mi-titulo-six {
+    color: white;
+    text-align: center;
+
+}
+.mi-parrafo-three {
+    color: white;
+    text-align: justify;
+    margin: 10%;
+
+
+}
+.nav-container-seven {
+    color: white;
+    text-align: center;
+    margin: 10%;
+}
+.la-historia {
+    color: wheat;
+    text-align: center;
+
+}
+
+.el-parrafo {
+    color: white;
+    text-align:justify;
+} 
+.nav-container-eight {
+    color: white;
+    text-align: justify;     
+    
+  
+}  
+.el-titulo {
+    color: white;
+    text-align: center;
+}
+.mi-subtitulo {
+    color: white;
+    text-align: center;
+}
+.mi-subtitulo-one {
+    color: white;
+    width: 310px; 
+    border: 5px solid #000000;
+    word-break: keep-all;
+}
+.mi-subtitulo-two {
+    color: white;
+    width: 310px; 
+    border: 5px solid #000000;
+    word-break: keep-all;
+    
+}
+.mi-subtitulo-three {
+    color: white;
+    width: 310px; 
+    border: 5px solid #000000;
+    word-break: keep-all;
+}
+.mi-subtitulo-for {
+    color: white;
+    width: 310px; 
+    border: 5px solid #000000;
+    word-break: keep-all; 
+}
+.mi-subtitulo-five {
+    color: white;
+    width: 310px; 
+    border: 5px solid #000000;
+    word-break: keep-all;
+}
+.mi-subtitulo-six{
+    color: white;
+    width: 310px; 
+    border: 5px solid #000000;
+    word-break: keep-all;
+}
+.mi-subtitulo-seven {
+    color: white;
+}
+.grid-container {
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  background-color: #000000;
+  padding: 60px;
+}
+.newspaper {
+    column-count: 2;
+    column-gap: 40px;
+    padding: 10%;
+  }
